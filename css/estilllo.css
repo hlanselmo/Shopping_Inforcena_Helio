@@ -1,0 +1,58 @@
+div{
+    width:100%;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 10px;    
+    
+}
+
+.loja_especial {
+    color: red;
+}
+
+.loja-especial2 {
+    color: green
+    
+}
+
+.loja-especial3 {
+    color: green
+    
+}
+
+.loja-especial4{
+    color: green
+    
+}
+
+
+a{
+  text-decoration: none; /*color: crimson; */
+  margin-left: 20px;
+  margin-right: 1px  
+        
+}
+
+a:link{
+    color:blue;
+}
+
+a:hover{
+    color: green;
+     text-transform:uppercase;
+}
+
+a:active{
+    color: red;
+}
+
+<a:visited{
+    color: blue
+}
+
+
+div{
+margin-bottom: 20px;
+margin-top: 15px
+
+}
