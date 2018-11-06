@@ -6,51 +6,116 @@
     
      <title>Shopping Info Cena</title>
           <link rel="stylesheet" href="css/estilllo.css"/>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
  <body>
    <h1> Assine nossa newsletter e receba nossas promoções.</h1>    
     
-<div>
- Nome:<input type="text" id="nome"
+     
+    <form> 
+     
+<div class="form-row">
+ <div class="form-group col-xs-6">    
+<label for="idnome">Nome:</label><input type="text" id="idnome"
     name="Nome"         
     required="true"
     placeholder="Digite seu Nome"
-    value=""/>    
+    value="" class="form-control"/>    
      </div>
         
-        <div>
-Cidade:<select  name="cidade">      
+        <div class="form-group col-xs-6">
+       <label for="idcidade">Cidade:</label><select  name="idcidade" class="form-control">      
         <option value="Rio de Janeiro">Rio de Janeiro</option>
         <option value="Duque de Caixias">Duque de Caixias</option>
         <option value="São João">São João</option>
         <option value="Nova Iguaçu">Nova Iguaçu</option>    
             </select>        
-        </div>
-    
-     <div>
-E-mail:<input type="text" id="e-mail"
-    name="E-mail"         
+        </div>      
+         </div>
+     
+        
+     <div class="form-row">
+    <div class="form-group col-xs-6">    
+<label for="idemail">E-mail:</label><input type="text" id="idemail"
+    name="idemail"         
     required="true"
     placeholder="Digite seu E-mail"
-    value=""/>    
+    value="" class="form-control"/>    
      </div>
     
+
+        </div>
+        
+    <div class="form-row">
+        Interesses:    
+    </div>    
+    <div class="form-row">
+        <div class="form-check-inline">
+            <input type="checkbox" id="Hardware"            name="optfilme"
+                   class="form-check-input"/>
+            <label class="form-check-label" for="Hardware">Hardeware</label>
+        
+        </div>
+        
     
-Interresses:
- <input type="checkbox" id="Hardware"       
-        name="optfilme"/>Hardeware
+    </div>    
+        
+    <div class="form-row">    
+       <div  class="form-check-inline">  
  <input type="checkbox" id="Software"    
-        name="optfilme"/>Software
- <input type="checkbox" id="Jogos"    
-        name="optfilme"/>Jogos
-     <div>                                        <input type="submit" value="Gravar"/>
-      <input type="reset" value="Limpar"/> 
+        name="optfilme" 
+        class="form-check-input"/>
+<label class="form-check-label"
+       for="Software">Software</label>
+       
+           
+           </div> 
+    
+        </div>
+        
+        
+        
+        <div class="form-row">
+        
+        
+        
+        <div class="form-check-inline">
+    
+  <input type="checkbox" id="Jogos"    
+        name="optfilme"
+        class="form-check-input"/>          
+ <label class="form-check-label"
+        for="Jogos">Jogos</label>
+            </div>
+        </div>    
+    
+  
+    
+        
+        
+        
+        
+        
+        
+        
+        
+    <div>    
+        <input type="submit" value="Gravar"
+        class="btn btn-primary"/>
+      <input type="reset" value="Limpar"
+        class="btn btn-secundary"/> 
      </div>
      
+</form>        
      <a href="Quem_Somos.html">Quem somos</a>
      <a href="Lojas.html">Lojas</a>
      <a href="Produtos.html">Produtos</a>
      <a href="index.html">Home</a>
+     
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 
 
