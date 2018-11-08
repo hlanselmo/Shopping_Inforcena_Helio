@@ -7,6 +7,36 @@ div{
     
 }
 */
+   
+
+body{
+    
+ 
+background: url("../imagens/bb.jpg");
+     
+ background-size: 100% 100%;  
+    background-repeat: no-repeat;
+   background-attachment: fixed;    
+}
+
+
+img{
+ height: 122px;
+ width:123px;     
+    
+}
+
+
+.btn-primary{
+    
+    background-color: #FFE4C4   !important;
+}
+
+.btn-secundary{
+    background-color: #FFA500 !important;
+}
+
+
 .loja_especial {
     color: red;
 }
